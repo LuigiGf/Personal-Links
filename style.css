@@ -1,0 +1,22 @@
+.anchors {
+    margin-top: 5%;
+    background: none;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    border-radius: 50%;
+}
+
+.anchors:first-of-type {
+    margin-top: 0;
+}
+
+.anchors:hover {
+    box-shadow: 0 0.5em 0.9em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.image {
+    width: 20rem;
+}
+
